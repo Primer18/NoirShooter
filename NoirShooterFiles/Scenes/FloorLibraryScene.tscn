@@ -1,7 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://bso0j3772uul6"]
+[gd_scene load_steps=3 format=3 uid="uid://caeuhr82cgi6b"]
 
-[ext_resource type="PackedScene" uid="uid://b1subor4a8ggm" path="res://Grid Meshes/Woodfloor.glb" id="1_j82d5"]
-[ext_resource type="PackedScene" uid="uid://b010h3jxh3e4h" path="res://Grid Meshes/Apt Wall.glb" id="2_4n283"]
+[ext_resource type="PackedScene" uid="uid://b1subor4a8ggm" path="res://Assets/Grid Meshes/Woodfloor.glb" id="1_j82d5"]
+[ext_resource type="PackedScene" uid="uid://b010h3jxh3e4h" path="res://Assets/Grid Meshes/Apt Wall.glb" id="2_4n283"]
 
 [node name="Node3D" type="Node3D"]
 

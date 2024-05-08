@@ -1,2 +1,2 @@
-########## odt lock file ******
-#Actually idk how to do that
+# Godot 4+ specific ignores
+.godot/
