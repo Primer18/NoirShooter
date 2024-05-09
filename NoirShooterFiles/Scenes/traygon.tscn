@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://d051827ehqch"]
+
+[ext_resource type="Script" path="res://TraygonBehavior.gd" id="1_246xh"]
+[ext_resource type="Texture2D" uid="uid://c15c3pgdhanpu" path="res://Assets/Textures/Enemies/Traygon.png" id="2_po1dt"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_rbcnq"]
+size = Vector3(0.34, 0.43, 0.01)
+
+[node name="CharacterBody3D" type="CharacterBody3D"]
+script = ExtResource("1_246xh")
+
+[node name="SubViewport" type="SubViewport" parent="."]
+transparent_bg = true
+size = Vector2i(34, 43)
+
+[node name="Sprite3D" type="Sprite3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.01, 0.215416, 0)
+texture_filter = 0
+texture = ExtResource("2_po1dt")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 8.74228e-08, 0, -8.74228e-08, 1, 0, 0, 0, 1, 0, 0, 0)
+shape = SubResource("BoxShape3D_rbcnq")

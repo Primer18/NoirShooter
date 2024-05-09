@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://toj7eau7uyij"
-path="res://.godot/imported/Roofhe.jpg-d34fe88b6b2da2a462948a318d30dac1.ctex"
+uid="uid://r0jnaxqkoq8n"
+path="res://.godot/imported/Roofhe.jpg-ccc47dffbd8febf5c1a0f05e4a5a5ce2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Textures/Roofhe.jpg"
-dest_files=["res://.godot/imported/Roofhe.jpg-d34fe88b6b2da2a462948a318d30dac1.ctex"]
+source_file="res://Export/Roofhe.jpg"
+dest_files=["res://.godot/imported/Roofhe.jpg-ccc47dffbd8febf5c1a0f05e4a5a5ce2.ctex"]
 
 [params]
 

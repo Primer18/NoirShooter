@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://blsap25wxbrlr"
-path="res://.godot/imported/WallHe.jpg-46b35287cd7540e7fcba10a247fd6242.ctex"
+uid="uid://bmeg5fbnxh8qb"
+path="res://.godot/imported/Knuckles.jpg-ee83b68ff62bcfc0d165de69ebb16d25.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Textures/WallHe.jpg"
-dest_files=["res://.godot/imported/WallHe.jpg-46b35287cd7540e7fcba10a247fd6242.ctex"]
+source_file="res://Models/Refrence/Knuckles.jpg"
+dest_files=["res://.godot/imported/Knuckles.jpg-ee83b68ff62bcfc0d165de69ebb16d25.ctex"]
 
 [params]
 

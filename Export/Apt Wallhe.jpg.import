@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://fl6r3s0lvfy4"
-path="res://.godot/imported/Floor.jpg-2abee0f593d617669d2898d73e4f2254.ctex"
+uid="uid://ba6nm3i0leswd"
+path="res://.godot/imported/Apt Wallhe.jpg-06f1e3732c9f6258a8f81f6e673e681c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Textures/Floor.jpg"
-dest_files=["res://.godot/imported/Floor.jpg-2abee0f593d617669d2898d73e4f2254.ctex"]
+source_file="res://Export/Apt Wallhe.jpg"
+dest_files=["res://.godot/imported/Apt Wallhe.jpg-06f1e3732c9f6258a8f81f6e673e681c.ctex"]
 
 [params]
 
