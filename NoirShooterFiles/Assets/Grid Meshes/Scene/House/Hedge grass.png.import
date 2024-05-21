@@ -2,22 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://frdlbvv3iuan"
-path.s3tc="res://.godot/imported/Fence_Gold Fence.png-ef5712ff03d1fd67a8ce3dce4f072bec.s3tc.ctex"
+uid="uid://tyg8qym4ps4u"
+path="res://.godot/imported/Hedge grass.png-38cabcf53f35a668bfd306c5c0c7f19c.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
-generator_parameters={}
 
 [deps]
 
-source_file="res://Assets/Grid Meshes/Scene/Fence_Gold Fence.png"
-dest_files=["res://.godot/imported/Fence_Gold Fence.png-ef5712ff03d1fd67a8ce3dce4f072bec.s3tc.ctex"]
+source_file="res://Assets/Grid Meshes/Scene/House/Hedge grass.png"
+dest_files=["res://.godot/imported/Hedge grass.png-38cabcf53f35a668bfd306c5c0c7f19c.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

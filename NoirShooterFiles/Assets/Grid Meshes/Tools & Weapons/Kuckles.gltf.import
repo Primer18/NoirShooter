@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://b010h3jxh3e4h"
-path="res://.godot/imported/Apt Wall.glb-7ef4866b1eeee5ba6a39d19573e9e652.scn"
+uid="uid://bxrlatkbsxd32"
+path="res://.godot/imported/Kuckles.gltf-b358469ace804bdaa739555ea86ab06d.scn"
 
 [deps]
 
-source_file="res://Assets/Grid Meshes/Scene/Apt Wall.glb"
-dest_files=["res://.godot/imported/Apt Wall.glb-7ef4866b1eeee5ba6a39d19573e9e652.scn"]
+source_file="res://Assets/Grid Meshes/Tools & Weapons/Kuckles.gltf"
+dest_files=["res://.godot/imported/Kuckles.gltf-b358469ace804bdaa739555ea86ab06d.scn"]
 
 [params]
 

@@ -2,26 +2,24 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://frdlbvv3iuan"
-path.s3tc="res://.godot/imported/Fence_Gold Fence.png-ef5712ff03d1fd67a8ce3dce4f072bec.s3tc.ctex"
+uid="uid://dqm6euro18rv0"
+path="res://.godot/imported/RustedMetal.png-457b0abfc558a2d55e13ed7321249693.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
-generator_parameters={}
 
 [deps]
 
-source_file="res://Assets/Grid Meshes/Scene/Fence_Gold Fence.png"
-dest_files=["res://.godot/imported/Fence_Gold Fence.png-ef5712ff03d1fd67a8ce3dce4f072bec.s3tc.ctex"]
+source_file="res://Assets/Grid Meshes/Tools & Weapons/RustedMetal.png"
+dest_files=["res://.godot/imported/RustedMetal.png-457b0abfc558a2d55e13ed7321249693.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
-compress/normal_map=0
+compress/normal_map=1
 compress/channel_pack=0
 mipmaps/generate=true
 mipmaps/limit=-1

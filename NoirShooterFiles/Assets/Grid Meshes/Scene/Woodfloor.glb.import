@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b1subor4a8ggm"
-path="res://.godot/imported/Woodfloor.glb-a4c9173a85e0ee9be2c9eceebf85cf71.scn"
+path="res://.godot/imported/Woodfloor.glb-8ce14acef2e50a96297ec53084e7e905.scn"
 
 [deps]
 
-source_file="res://Assets/Grid Meshes/Woodfloor.glb"
-dest_files=["res://.godot/imported/Woodfloor.glb-a4c9173a85e0ee9be2c9eceebf85cf71.scn"]
+source_file="res://Assets/Grid Meshes/Scene/Woodfloor.glb"
+dest_files=["res://.godot/imported/Woodfloor.glb-8ce14acef2e50a96297ec53084e7e905.scn"]
 
 [params]
 

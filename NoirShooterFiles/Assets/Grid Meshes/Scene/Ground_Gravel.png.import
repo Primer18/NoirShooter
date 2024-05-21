@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dkgsre8v3jvid"
-path.s3tc="res://.godot/imported/Ground_Gravel.png-4752aec6fa6557c025fdad3b8e571af5.s3tc.ctex"
+path.s3tc="res://.godot/imported/Ground_Gravel.png-58107c5e7066d258db9a81b2633ad8be.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://Assets/Grid Meshes/Ground_Gravel.png"
-dest_files=["res://.godot/imported/Ground_Gravel.png-4752aec6fa6557c025fdad3b8e571af5.s3tc.ctex"]
+source_file="res://Assets/Grid Meshes/Scene/Ground_Gravel.png"
+dest_files=["res://.godot/imported/Ground_Gravel.png-58107c5e7066d258db9a81b2633ad8be.s3tc.ctex"]
 
 [params]
 

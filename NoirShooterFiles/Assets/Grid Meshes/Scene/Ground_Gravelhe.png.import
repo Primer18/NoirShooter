@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bpankl0o1bfuc"
-path.s3tc="res://.godot/imported/Ground_Gravelhe.png-92a97f73447d22573097fef44ecf438e.s3tc.ctex"
+path.s3tc="res://.godot/imported/Ground_Gravelhe.png-e205cb5c89930096594dac450927f494.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://Assets/Grid Meshes/Ground_Gravelhe.png"
-dest_files=["res://.godot/imported/Ground_Gravelhe.png-92a97f73447d22573097fef44ecf438e.s3tc.ctex"]
+source_file="res://Assets/Grid Meshes/Scene/Ground_Gravelhe.png"
+dest_files=["res://.godot/imported/Ground_Gravelhe.png-e205cb5c89930096594dac450927f494.s3tc.ctex"]
 
 [params]
 

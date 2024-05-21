@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c6n7ifasuf2o2"
-path.s3tc="res://.godot/imported/Fence_Gold Fencehe.png-66bf5686eef76fbf95440644e1c23fc7.s3tc.ctex"
+path.s3tc="res://.godot/imported/Fence_Gold Fencehe.png-d1ee9b60930548fd516c76de86f81787.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://Assets/Grid Meshes/Fence_Gold Fencehe.png"
-dest_files=["res://.godot/imported/Fence_Gold Fencehe.png-66bf5686eef76fbf95440644e1c23fc7.s3tc.ctex"]
+source_file="res://Assets/Grid Meshes/Scene/Fence_Gold Fencehe.png"
+dest_files=["res://.godot/imported/Fence_Gold Fencehe.png-d1ee9b60930548fd516c76de86f81787.s3tc.ctex"]
 
 [params]
 

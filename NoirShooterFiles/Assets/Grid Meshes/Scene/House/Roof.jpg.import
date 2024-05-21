@@ -2,25 +2,24 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cv20pw4txxit5"
-path.s3tc="res://.godot/imported/Skybox.jpg-5b4db64ef776fce846250cb072f294c3.s3tc.ctex"
+uid="uid://ba5lr66indexn"
+path="res://.godot/imported/Roof.jpg-ebfd4eafac06ad3c996b7efbbaefd908.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
-source_file="res://Skybox.jpg"
-dest_files=["res://.godot/imported/Skybox.jpg-5b4db64ef776fce846250cb072f294c3.s3tc.ctex"]
+source_file="res://Assets/Grid Meshes/Scene/House/Roof.jpg"
+dest_files=["res://.godot/imported/Roof.jpg-ebfd4eafac06ad3c996b7efbbaefd908.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
-compress/normal_map=0
+compress/normal_map=1
 compress/channel_pack=0
 mipmaps/generate=true
 mipmaps/limit=-1
