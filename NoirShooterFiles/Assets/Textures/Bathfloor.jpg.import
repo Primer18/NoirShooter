@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bmeg5fbnxh8qb"
-path="res://.godot/imported/Knuckles.jpg-ee83b68ff62bcfc0d165de69ebb16d25.ctex"
+uid="uid://deiyj3an7ndsk"
+path="res://.godot/imported/Bathfloor.jpg-0464e8a146b59871474514bfeda26c6b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Models/Refrence/Knuckles.jpg"
-dest_files=["res://.godot/imported/Knuckles.jpg-ee83b68ff62bcfc0d165de69ebb16d25.ctex"]
+source_file="res://Assets/Textures/Bathfloor.jpg"
+dest_files=["res://.godot/imported/Bathfloor.jpg-0464e8a146b59871474514bfeda26c6b.ctex"]
 
 [params]
 
