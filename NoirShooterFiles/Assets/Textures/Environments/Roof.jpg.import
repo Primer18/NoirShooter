@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://blsap25wxbrlr"
-path="res://.godot/imported/WallHe.jpg-46b35287cd7540e7fcba10a247fd6242.ctex"
+uid="uid://do4hjrrs38yii"
+path="res://.godot/imported/Roof.jpg-33d15e7a384f64c6785f6a4bef7f12c8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Textures/WallHe.jpg"
-dest_files=["res://.godot/imported/WallHe.jpg-46b35287cd7540e7fcba10a247fd6242.ctex"]
+source_file="res://Assets/Textures/Environments/Roof.jpg"
+dest_files=["res://.godot/imported/Roof.jpg-33d15e7a384f64c6785f6a4bef7f12c8.ctex"]
 
 [params]
 
