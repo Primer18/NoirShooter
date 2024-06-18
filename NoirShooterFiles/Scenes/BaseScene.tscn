@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://4wdpkan8axpb"]
+
+[ext_resource type="Script" path="res://Assets/Controls/Scripts/Global.gd" id="1_5i0yn"]
+
+[node name="Global" type="Node3D" groups=["Enemies", "Player"]]
+script = ExtResource("1_5i0yn")
