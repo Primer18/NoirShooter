@@ -1,9 +1,10 @@
-[gd_scene load_steps=11 format=3 uid="uid://bng3m48ndeio2"]
+[gd_scene load_steps=16 format=3 uid="uid://bng3m48ndeio2"]
 
-[ext_resource type="Texture2D" uid="uid://dto6kuto2pid2" path="res://Assets/Textures/Environments/Skybox.jpg" id="1_k6ke6"]
-[ext_resource type="PackedScene" uid="uid://cmcoctovq1dr" path="res://Assets/Grid Meshes/Ground.glb" id="2_6u6s4"]
-[ext_resource type="PackedScene" uid="uid://cegci3j6esnwa" path="res://Assets/Grid Meshes/Fence.glb" id="3_qsacd"]
+[ext_resource type="Texture2D" uid="uid://dto6kuto2pid2" path="res://Assets/Textures/Skybox.jpg" id="1_k6ke6"]
+[ext_resource type="PackedScene" uid="uid://cmcoctovq1dr" path="res://Assets/Grid Meshes/Scene/Ground.glb" id="2_6u6s4"]
+[ext_resource type="PackedScene" uid="uid://cegci3j6esnwa" path="res://Assets/Grid Meshes/Scene/Fence.glb" id="3_qsacd"]
 [ext_resource type="PackedScene" uid="uid://cy1je4phc2b0p" path="res://Assets/Controls/PlayerController.tscn" id="4_w6fpo"]
+[ext_resource type="PackedScene" uid="uid://dj2afmlftedyr" path="res://Assets/Grid Meshes/Scene/House/House.gltf" id="5_gdwkt"]
 [ext_resource type="PackedScene" uid="uid://d051827ehqch" path="res://Scenes/traygon.tscn" id="6_uccyt"]
 
 [sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_w1a0c"]
@@ -21,6 +22,19 @@ sky = SubResource("Sky_4b5gk")
 
 [sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_wx5yd"]
 
+[sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_2vtle"]
+
+[sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_spj45"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_q7crx"]
+size = Vector3(3.73285, 1.97119, 1)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_fmdyb"]
+size = Vector3(0.448669, 1.75037, 6.84012)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_10txn"]
+size = Vector3(1.01117, 1.4314, 0.422241)
+
 [node name="WorldEnvironment" type="WorldEnvironment"]
 environment = SubResource("Environment_mlnio")
 
@@ -29,22 +43,31 @@ transform = Transform3D(4.665, 0, 0, 0, 4.665, 0, 0, 0, 4.665, 0, 0, 0)
 
 [node name="Ground" parent="Node3D2" instance=ExtResource("2_6u6s4")]
 
-[node name="StaticBody3D" type="StaticBody3D" parent="Node3D2/Ground"]
+[node name="Collision" type="StaticBody3D" parent="Node3D2/Ground"]
 physics_material_override = SubResource("PhysicsMaterial_5lwqu")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Node3D2/Ground/StaticBody3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Node3D2/Ground/Collision"]
 shape = SubResource("WorldBoundaryShape3D_wx5yd")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="Node3D2/Ground/Collision"]
+transform = Transform3D(-4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, 0, 1, -2.06251, 0.920144, 0.00734809)
+shape = SubResource("WorldBoundaryShape3D_2vtle")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="Node3D2/Ground/Collision"]
+transform = Transform3D(-0.00193007, -0.999997, 0.00108683, 0.999998, -0.00192945, 0.000567303, -0.000565211, 0.00108792, 0.999999, 1.95749, 1.06027, -0.00435169)
+shape = SubResource("WorldBoundaryShape3D_2vtle")
+
+[node name="CollisionShape3D4" type="CollisionShape3D" parent="Node3D2/Ground/Collision"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 1.74846e-07, 4)
+shape = SubResource("WorldBoundaryShape3D_spj45")
 
 [node name="Node3D" type="Node3D" parent="Node3D2"]
 
 [node name="Fence4" parent="Node3D2/Node3D" instance=ExtResource("3_qsacd")]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -2, 0, -1)
 
-[node name="Fence" parent="Node3D2/Node3D" instance=ExtResource("3_qsacd")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -2)
-
 [node name="Fence2" parent="Node3D2/Node3D" instance=ExtResource("3_qsacd")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 4)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.992666, -0.00446234, 4.0071)
 
 [node name="Fence3" parent="Node3D2/Node3D" instance=ExtResource("3_qsacd")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 4)
@@ -53,7 +76,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 4)
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -2, 0, 1)
 
 [node name="Fence6" parent="Node3D2/Node3D" instance=ExtResource("3_qsacd")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -2)
+transform = Transform3D(0.29, 0, 0, 0, 1, 0, 0, 0, 1, -1.71594, 0, -2)
 
 [node name="Fence7" parent="Node3D2/Node3D" instance=ExtResource("3_qsacd")]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -2, 0, 3)
@@ -74,3 +97,41 @@ transform = Transform3D(0.723457, 0.461537, -0.513414, 0.009014, 0.737301, 0.675
 
 [node name="TraygonEnemy" parent="." instance=ExtResource("6_uccyt")]
 MinHeadAngle = -0.05
+
+[node name="CharacterBody3D" parent="." instance=ExtResource("4_w6fpo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.784607, 9.54925, 0.318611)
+
+[node name="House" parent="." instance=ExtResource("5_gdwkt")]
+transform = Transform3D(-4, 0, 6.03983e-07, 0, 4, 0, -6.03983e-07, 0, -4, 1.36923, 0, -32.8764)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="House"]
+
+[node name="House_back" type="CollisionShape3D" parent="House/StaticBody3D"]
+transform = Transform3D(-1.16625, 0, -1.76099e-07, 0, 1.16625, 0, 1.76099e-07, 0, -1.16625, 0.220225, 1.0737, 2.59646)
+shape = SubResource("BoxShape3D_q7crx")
+
+[node name="House_left" type="CollisionShape3D" parent="House/StaticBody3D"]
+transform = Transform3D(-1.16625, 0, -1.76099e-07, 0, 1.16625, 0, 1.76099e-07, 0, -1.16625, 2.26914, 1.00861, -1.98124)
+shape = SubResource("BoxShape3D_fmdyb")
+
+[node name="CollisionShape3D5" type="CollisionShape3D" parent="House/StaticBody3D"]
+transform = Transform3D(-1.16625, 0, -1.76099e-07, 0, 1.16625, 0, 1.76099e-07, 0, -1.16625, 1.05953, 0.806371, -6.27071)
+shape = SubResource("BoxShape3D_10txn")
+
+[node name="CollisionShape3D6" type="CollisionShape3D" parent="House/StaticBody3D"]
+transform = Transform3D(-1.16625, 0, -1.76099e-07, 0, 1.16625, 0, 1.76099e-07, 0, -1.16625, -1.22094, 0.806371, -6.27071)
+shape = SubResource("BoxShape3D_10txn")
+
+[node name="light" type="Node3D" parent="."]
+
+[node name="OmniLight3D" type="OmniLight3D" parent="light"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.27746, 5.28326, -7.15526)
+omni_range = 9.20031
+
+[node name="OmniLight3D" type="OmniLight3D" parent="light/OmniLight3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.584705, -1.55782, -26.5782)
+light_energy = 9.289
+light_volumetric_fog_energy = 0.98
+light_size = 0.345
+omni_range = 16.018
+omni_attenuation = 1.46408

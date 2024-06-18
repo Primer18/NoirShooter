@@ -1,8 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://cy1je4phc2b0p"]
+[gd_scene load_steps=7 format=3 uid="uid://cy1je4phc2b0p"]
 
 [ext_resource type="Script" path="res://Assets/Controls/Scripts/PlayerController.gd" id="1_0k5f2"]
 [ext_resource type="Script" path="res://Assets/Controls/Scripts/CrosshairControl.gd" id="2_o6e2w"]
 [ext_resource type="Texture2D" uid="uid://un7rwq77q1nf" path="res://Assets/Crosshair.png" id="2_y6bgc"]
+[ext_resource type="PackedScene" uid="uid://bxrlatkbsxd32" path="res://Assets/Grid Meshes/Tools & Weapons/Kuckles.gltf" id="4_qm6uy"]
+[ext_resource type="PackedScene" uid="uid://ci7sros3oolcy" path="res://Assets/Grid Meshes/Tools & Weapons/cig.gltf" id="5_mfhx5"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_bn1ty"]
 
@@ -40,3 +42,11 @@ layout_mode = 0
 offset_right = 40.0
 offset_bottom = 40.0
 texture = ExtResource("2_y6bgc")
+
+[node name="equipped" type="Node3D" parent="CameraController/Camera"]
+
+[node name="Kuckles" parent="CameraController/Camera/equipped" instance=ExtResource("4_qm6uy")]
+transform = Transform3D(0.0874064, -0.102884, 0, 0.102884, 0.0874064, 0, 0, 0, 0.135, 0.684909, -0.357741, -0.810239)
+
+[node name="cig" parent="CameraController/Camera/equipped/Kuckles" instance=ExtResource("5_mfhx5")]
+transform = Transform3D(0.959193, -1.12904, 1.70481e-07, -1.12904, -0.959193, 1.44834e-07, 0, -2.23697e-07, -1.48148, -3.88928, 3.35291, 0.875845)
