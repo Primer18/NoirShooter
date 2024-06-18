@@ -5,6 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://cegci3j6esnwa" path="res://Assets/Grid Meshes/Scene/Fence.glb" id="3_qsacd"]
 [ext_resource type="PackedScene" uid="uid://cy1je4phc2b0p" path="res://Assets/Controls/PlayerController.tscn" id="4_w6fpo"]
 [ext_resource type="PackedScene" uid="uid://dj2afmlftedyr" path="res://Assets/Grid Meshes/Scene/House/House.gltf" id="5_gdwkt"]
+[ext_resource type="PackedScene" uid="uid://d051827ehqch" path="res://Scenes/traygon.tscn" id="6_uccyt"]
 
 [sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_w1a0c"]
 panorama = ExtResource("1_k6ke6")
@@ -88,6 +89,14 @@ transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2, 0, 
 
 [node name="Fence10" parent="Node3D2/Node3D" instance=ExtResource("3_qsacd")]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2, 0, 3)
+
+[node name="PlayerBody" parent="." groups=["Player"] instance=ExtResource("4_w6fpo")]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.723457, 0.461537, -0.513414, 0.009014, 0.737301, 0.675504, 0.690311, -0.493326, 0.529245, -18.8266, 16.3051, 18.4661)
+
+[node name="TraygonEnemy" parent="." instance=ExtResource("6_uccyt")]
+MinHeadAngle = -0.05
 
 [node name="CharacterBody3D" parent="." instance=ExtResource("4_w6fpo")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.784607, 9.54925, 0.318611)

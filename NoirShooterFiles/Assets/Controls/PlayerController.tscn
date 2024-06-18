@@ -9,6 +9,7 @@
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_bn1ty"]
 
 [node name="CharacterBody3D" type="CharacterBody3D" node_paths=PackedStringArray("CAMERA_CONTROLLER")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.0126227, 0)
 script = ExtResource("1_0k5f2")
 CAMERA_CONTROLLER = NodePath("CameraController/Camera")
 

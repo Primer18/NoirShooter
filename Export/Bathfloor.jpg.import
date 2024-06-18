@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://blsap25wxbrlr"
-path="res://.godot/imported/WallHe.jpg-46b35287cd7540e7fcba10a247fd6242.ctex"
+uid="uid://8ibxjcbdn4ea"
+path="res://.godot/imported/Bathfloor.jpg-ce2927c77b1b678d0f50ce15a581508e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Textures/WallHe.jpg"
-dest_files=["res://.godot/imported/WallHe.jpg-46b35287cd7540e7fcba10a247fd6242.ctex"]
+source_file="res://Export/Bathfloor.jpg"
+dest_files=["res://.godot/imported/Bathfloor.jpg-ce2927c77b1b678d0f50ce15a581508e.ctex"]
 
 [params]
 
